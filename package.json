@@ -1,0 +1,19 @@
+{
+  "name": "emotion-11-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.html",
+  "scripts": {
+    "start": "NODE_ENV=production parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Craig Sketchley <craigsketchley@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@emotion/react": "^11.0.0-next.13",
+    "@emotion/styled": "^11.0.0-next.13",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
